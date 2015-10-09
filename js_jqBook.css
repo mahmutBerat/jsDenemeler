@@ -1,0 +1,118 @@
+p{
+	border: dashed 1px red;
+	width: 120px;
+
+}
+
+#container{
+	position: absolute;
+	top:164px;
+	left:400px; 
+	border: solid 2px;
+	border-radius: 10px;
+	background-color: blue;
+	width: 200px;
+	height: 300px;
+}
+
+input{
+	width: 100px;
+	height: 100px;
+	border-color: gray;
+	border-radius: 5px;
+	align: top;
+}
+
+h3 {
+    margin-left: 12px;
+    font-family: arial;
+}
+
+.image {
+    border: 10px black;
+    width: 100px;
+    height: 100px;
+    /* -webkit-margin-before: 10px; */
+    /* -webkit-margin-after: 10px; */
+    -webkit-margin-start: 49px;
+}
+
+#menu {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    /* padding: 10px; */
+    background-color: lightsalmon;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+}
+
+.list {
+	/* width: inherit; */
+	/* height: inherit; */
+	border: solid;
+	color: darkgrey;
+	display: block;
+	-webkit-margin-before: 25px;
+	-webkit-margin-after: 25px;
+}
+
+.listItems {
+	position: static;
+	/* top: -15px; */
+	/* left: 20px; */
+	/* border: dotted red; */
+	border-radius: 5px;
+	background-color: lightgreen;
+	color:coral;
+	/* margin: 5px; */
+	/* padding-left: 60px; */
+	display: block;
+	margin-left: -35px;
+	margin-right: 5px;
+	width: inherit;
+	height: 40px;
+	-webkit-margin-after: 4px;
+	-webkit-margin-before: 4px;
+	/* -webkit-margin-start: -35px; */
+	text-align: -webkit-left;
+	text-overflow: clip;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.inputAdd {
+    -webkit-margin-start: 4px;
+    border-color: black;
+    background-color: lightgray;
+    height: 40px;
+    color: black;
+    font-size: 12px;
+    width: 120px;
+}
+#addContainer {
+	display: block;
+	height: inherit;
+	-webkit-margin-after: 10px;
+}
+#counter {
+    position: absolute;
+    width: 30px;
+    line-height: 30px;
+    height: 30px;
+    top: 100px;
+    left: 160px;
+    background-color: white;
+    border: solid;
+    border-radius: 24px;
+    color: coral;
+    text-align: center;
+    cursor: default;
+}
+
+.erase{
+	color:black;
+	background-color: lightgray;
+	
+}
